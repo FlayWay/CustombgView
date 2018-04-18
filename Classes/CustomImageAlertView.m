@@ -8,6 +8,11 @@
 
 #import "CustomImageAlertView.h"
 #import "UIView+Extension.h"
+
+#define  KScreenW             [[UIScreen mainScreen] bounds].size.width
+#define  KScreenH             [[UIScreen mainScreen] bounds].size.height
+#define  KScreenX             [[UIScreen mainScreen] bounds].size.width/375
+
 @interface CustomImageAlertView ()<UIGestureRecognizerDelegate>
 
 @property (nonatomic,strong)UIView *containView;
